@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-flow: row nowrap;
+}
+a{
+    text-decoration: none;
+        color: black;
+}
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    figure{
+        width:27vw;
+        height: 60vh;
+      background: rgba(247, 247, 250, 0.363); 
+      padding: 20px auto ;  
+      text-align: center;
+      border: 1px solid black;
+      /* padding: 4px; */
+    }
+    img{
+         width:20vw; 
+         height: 35vh;
+        margin-top: 50px ;
+    } 
+    figcaption{
+         margin-top: 40px;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: none;
+    }
+    @media screen and (max-width:900px) {
+      
+      figure{
+       width: 70vw;    
+       
+      }
+      img{
+        width: 55vw;
+      }
+        
+    }
+    @media screen and (min-width:900px) and (max-width:1200px) {
+      
+      figure{
+       width: 50vw;    
+       
+      }
+      img{
+        width: 45vw;
+      }
+        
+    }

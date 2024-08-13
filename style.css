@@ -1,0 +1,141 @@
+
+
+ /* products css */
+ img:hover{
+    box-shadow: 6px 6px 30px rgba(70, 61, 61, 0.959); 
+     transition: 0.5s; 
+}
+.plink{
+    text-decoration: none;
+    color: black;
+}
+
+.plink:hover{ 
+      color:rgb(42, 71, 124) ;
+      text-decoration: underline;
+       }      
+
+       figure:hover{
+    background: whitesmoke;
+}   
+@media screen and (max-width:700px) {
+  figure{
+    width:65vw;
+    height: 60vh;
+  background: rgba(247, 247, 250, 0.363); 
+  margin: 30px auto ;  
+  text-align: center;
+  border: 2px solid black;
+}
+/* figure:hover{
+    background: whitesmoke;
+} */
+img{
+     width:50vw; 
+     height: 30vh;
+    margin-top: 50px ;
+} 
+figcaption{
+     margin-top: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: none;
+}
+} 
+
+@media screen and (min-width:701px) and (max-width:900px) {
+figure{
+    width:65vw;
+    height: 60vh;
+  background: rgba(247, 247, 250, 0.363); 
+  margin: 30px auto ;  
+  text-align: center;
+  border: 2px solid black;
+}
+/* figure:hover{
+    background: whitesmoke;
+} */
+img{
+     width:50vw; 
+     height: 30vh;
+    margin-top: 50px ;
+} 
+figcaption{
+     margin-top: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: none;
+}
+}
+
+@media screen and (min-width:901px) and (max-width:1400px) {
+body{
+       display: flex; 
+ flex-flow: row wrap;
+  justify-content: center; 
+}
+ figure{
+      width:45vw;  
+    height: 60vh;
+  background: rgba(247, 247, 250, 0.363); 
+   margin: 20px auto ;   
+  text-align: center;
+  border: 2px solid black;
+} 
+    .carrier{
+    width: 50%;
+}    
+/* figure:hover{
+    background: whitesmoke;
+} */
+img{
+     width:30vw; 
+     height: 30vh;
+     margin-top: 50px ; 
+}
+figcaption{
+      margin-top: 60px; 
+    font-weight: bold;
+    font-size: 25px;
+    background-color: none;
+}
+}
+@media screen and (min-width:1401px) {
+body{
+       display: flex; 
+ flex-flow: row wrap;
+ justify-content: center;
+ 
+}
+ figure{
+      width:30vw;  
+    height: 60vh;
+  background: rgba(247, 247, 250, 0.363); 
+   margin: 20px auto ;   
+  text-align: center;
+  border: 2px solid black;
+ 
+} 
+    .carrier{
+    width: 33.33%;
+}    
+ /* figure:hover{
+    background: whitesmoke;
+}  */
+img{
+     width:20vw; 
+     height: 30vh;
+     margin-top: 50px ; 
+}
+figcaption{
+      margin-top: 60px; 
+    font-weight: bold;
+    font-size: 25px;
+    background-color: none;
+} }
+/*
+ 
+#grow{
+   width: 100%; 
+   justify-items: left;
+} */
